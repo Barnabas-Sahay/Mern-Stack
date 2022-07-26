@@ -1,1 +1,66 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF -8">
+        <title>Mern Registration Form</title>
+        <link rel="stylesheet" href="style.css"
+        <meta name="viewport" content="width=device-width"
+     </head>
+  <body>
+    <div class="container">
+        <div class="title"> Registration</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your Name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter your Email">
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your Phone Number">
+                </div>
+                <div class="input-box">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Enter your Address">
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Enter your Password">
+                </div>
+                <div class="input-box">
+                    <span class="details">PINCODE</span>
+                    <input type="text" placeholder="Enter your PINCODE">
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="text" placeholder="Confirm your Password">
+                </div>
+               
+                <div class="gender-details">
+                    <span class="gender-title">Gender</span>
 
+                    <div>
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        <label for="Male">Male</label><br>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        <label for="Female">Female</label><br>
+                        <input type="radio" id="Prefer not to say" name="gender" value="Prefer not to say">
+                        <label for="Prefer not to say">Prefer not to say</label>
+                    </div>
+                </div>
+                <div type="checkbox">
+                    <input type="checkbox">
+                    <label for="">I agree terms and conditions</label>
+                </div>
+                <div class="button">
+                    <input type="submit" value="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+
+  </body>   
+</html>
